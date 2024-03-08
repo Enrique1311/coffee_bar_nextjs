@@ -6,8 +6,8 @@ import MobileNavbar from "@/components/MobileNavbar";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Mi Tierra Café",
-	description: "Página web de Mi Tierra Café",
+	title: "The Coffee House",
+	description: "",
 };
 
 export default function RootLayout({ children }) {

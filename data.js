@@ -1,10 +1,12 @@
 import {
 	BellPlus,
-	BookText,
+	BookOpen,
 	Briefcase,
 	Brush,
-	Code2,
-	CodeSquare,
+	MessageCircleMore,
+	Instagram,
+	Facebook,
+	Images,
 	Home,
 	Inbox,
 	Mail,
@@ -14,6 +16,48 @@ import {
 	UsersRound,
 	Wrench,
 } from "lucide-react";
+
+import { FaWhatsapp } from "react-icons/fa";
+import { BsTelephone } from "react-icons/bs";
+import { FiBookOpen, FiHome, FiCoffee, FiFacebook } from "react-icons/fi";
+import {
+	MdOutlinePhotoLibrary,
+	MdOutlineMessage,
+	MdOutlineWhatsapp,
+	MdOutlineEmail,
+} from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
+
+export const dataSocialMedia = [
+	{
+		id: 1,
+		title: "Instagram",
+		subtitle: "@thecoffeehouse",
+		link: "@thecoffeehouse",
+		icon: <FaInstagram size={24} />,
+	},
+	{
+		id: 2,
+		title: "Facebook",
+		subtitle: "@thecoffeehouse",
+		link: "@thecoffeehouse",
+		icon: <FiFacebook size={24} />,
+	},
+	{
+		id: 3,
+		title: "WhatsApp",
+		subtitle: "+34 456 22 44 55",
+		link: "github.com/ratasi",
+		icon: <MdOutlineWhatsapp size={24} />,
+	},
+	{
+		id: 4,
+		title: "Email",
+		subtitle: "email@email.com",
+		link: "coffee:test@test.com",
+		icon: <MdOutlineEmail size={24} />,
+	},
+];
 
 export const dataAboutMe = [
 	{
@@ -40,31 +84,31 @@ export const navbarItems = [
 	{
 		id: 1,
 		title: "Home",
-		icon: <Home size={20} />,
+		icon: <FiHome size={24} />,
 		link: "#home",
 	},
 	{
 		id: 2,
 		title: "About",
-		icon: <UserRound size={20} />,
+		icon: <FiCoffee size={24} />,
 		link: "#about-us",
 	},
 	{
 		id: 3,
 		title: "Menu",
-		icon: <BookText size={20} />,
+		icon: <FiBookOpen size={24} />,
 		link: "#menu",
 	},
 	{
 		id: 4,
 		title: "Gallery",
-		icon: <CodeSquare size={20} />,
+		icon: <MdOutlinePhotoLibrary size={24} />,
 		link: "#gallery",
 	},
 	{
 		id: 5,
 		title: "Contact",
-		icon: <Mail size={20} />,
+		icon: <MdOutlineMessage size={24} />,
 		link: "#contact",
 	},
 ];
@@ -292,30 +336,6 @@ export const dataServices = [
 				name: "Diseño responsive para adaptarse a diferentes dispositivos",
 			},
 		],
-	},
-];
-
-export const dataContact = [
-	{
-		id: 1,
-		title: "Teléfono",
-		subtitle: "+34 677 66 66 33",
-		link: "tel:+34677666633",
-		icon: <Phone />,
-	},
-	{
-		id: 2,
-		title: "Github",
-		subtitle: "github.com/ratasi",
-		link: "github.com/ratasi",
-		icon: <Code2 />,
-	},
-	{
-		id: 3,
-		title: "Email",
-		subtitle: "email@email.com",
-		link: "mailto:test@test.com",
-		icon: <Inbox />,
 	},
 ];
 

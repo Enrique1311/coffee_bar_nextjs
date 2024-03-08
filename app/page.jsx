@@ -2,7 +2,7 @@ import Intro from "@/components/Intro";
 
 export default function Home() {
 	return (
-		<main className="pt-24">
+		<main className="py-20">
 			<Intro />
 		</main>
 	);

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section_padding {
+	@apply py-10 px-6 sm:py-6 sm:px-10 lg:py-4 lg:px-16;
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		@apply text-[18px];
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	:root {
+		@apply text-[20px];
+	}
+}
