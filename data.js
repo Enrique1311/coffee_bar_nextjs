@@ -17,8 +17,6 @@ import {
 	Wrench,
 } from "lucide-react";
 
-import { FaWhatsapp } from "react-icons/fa";
-import { BsTelephone } from "react-icons/bs";
 import { FiBookOpen, FiHome, FiCoffee, FiFacebook } from "react-icons/fi";
 import {
 	MdOutlinePhotoLibrary,
@@ -27,6 +25,9 @@ import {
 	MdOutlineEmail,
 } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
+import drinks from "@/assets/drinks.png";
+import sweet from "@/assets/sweet.png";
+import bread from "@/assets/bread.png";
 
 export const dataSocialMedia = [
 	{
@@ -56,27 +57,6 @@ export const dataSocialMedia = [
 		subtitle: "email@email.com",
 		link: "coffee:test@test.com",
 		icon: <MdOutlineEmail size={24} />,
-	},
-];
-
-export const dataAboutMe = [
-	{
-		id: 1,
-		name: "Experiencia",
-		icon: <Briefcase />,
-		description: "+4 años de experiencia",
-	},
-	{
-		id: 2,
-		name: "Clientes",
-		icon: <UsersRound />,
-		description: "+200 clientes satisfechos",
-	},
-	{
-		id: 3,
-		name: "Proyectos",
-		icon: <Wrench />,
-		description: "+50 completados",
 	},
 ];
 
@@ -132,48 +112,24 @@ export const dataSlider = [
 	},
 ];
 
-export const dataPortfolio = [
+export const dataAboutUs = [
 	{
 		id: 1,
-		title: "Web Pro",
-		image: "/image-1.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
+		title: "Our coffees",
+		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugiat dolores rem distinctio quo? Perferendis, atque. Quasi deleniti aperiam quidem fugit, ipsa, neque laudantium itaque officia soluta incidunt, deserunt consequatur.",
+		itemImage: drinks,
 	},
 	{
 		id: 2,
-		title: "Desarrollo Web Ágil",
-		image: "/image-2.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
+		title: "Our sweets",
+		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugiat dolores rem distinctio quo? Perferendis, atque. Quasi deleniti aperiam quidem fugit, ipsa, neque laudantium itaque officia soluta incidunt, deserunt consequatur.",
+		itemImage: sweet,
 	},
 	{
 		id: 3,
-		title: "Estrategias Web",
-		image: "/image-3.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
-	},
-	{
-		id: 4,
-		title: "Navegando Ideas Creativas",
-		image: "/image-4.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
-	},
-	{
-		id: 5,
-		title: "Sitios Web Impactantes",
-		image: "/image-5.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
-	},
-	{
-		id: 6,
-		title: "Proyectos Web Dinámicos",
-		image: "/image-6.jpg",
-		urlGithub: "#!",
-		urlDemo: "#!",
+		title: "Our breads",
+		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugiat dolores rem distinctio quo? Perferendis, atque. Quasi deleniti aperiam quidem fugit, ipsa, neque laudantium itaque officia soluta incidunt, deserunt consequatur.",
+		itemImage: bread,
 	},
 ];
 
