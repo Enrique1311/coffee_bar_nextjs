@@ -1,12 +1,11 @@
 import { dataSocialMedia } from "@/data";
-
 import Link from "next/link";
 import React from "react";
 
 const SocialMedia = () => {
 	return (
-		<div className="flex justify-center items-center p-4">
-			<div className="flex w-fit justify-around items-center gap-4 bg-light_gray_color_2 py-1 px-6 rounded-full">
+		<div className="w-full flex justify-center items-center md:justify-start">
+			<div className="flex w-fit justify-around items-center gap-4 bg-light_gray_color py-1 px-6 rounded-full my-4">
 				{dataSocialMedia.map((socialMedia) => (
 					<Link
 						key={socialMedia.id}

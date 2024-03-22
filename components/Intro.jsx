@@ -7,9 +7,9 @@ const Intro = () => {
 	return (
 		<section className="section_padding flex flex-col justify-center items-center gap-4 md:flex-row">
 			{" "}
-			<div className="flex flex-col justify-center text-center gap-4 text-brown_color w-full md:w-1/2">
+			<div className="flex flex-col justify-center gap-4 text-brown_color w-full md:w-1/2">
 				{" "}
-				<h1 className="text-3xl lg:text-5xl font-extrabold">
+				<h1 className="text-4xl lg:text-4xl xl:text-5xl font-extrabold">
 					Indulge in a <br /> symphony of flavors
 					<br /> at
 					<span className="text-orange_color"> The Coffee House</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import AboutUsItem from "./AboutUsItem";
+import leaves_grain from "@/assets/leaves_grain.png";
 
 const AboutUs = () => {
 	return (
@@ -11,6 +12,7 @@ const AboutUs = () => {
 			<Title
 				title="About Us"
 				subtitle="Top quality coffee and pasties"
+				itemImage={leaves_grain}
 			/>
 			<AboutUsItem />
 		</section>

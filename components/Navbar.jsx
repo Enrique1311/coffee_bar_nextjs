@@ -19,7 +19,7 @@ const Navbar = () => {
 				{navbarItems.map((item) => (
 					<div
 						key={item.id}
-						className="cursor-pointer font-medium text-[1.1rem] text-brown_color hover:bg-brown_color hover:text-light_gray_color transition-all rounded-full py-1 px-4"
+						className="cursor-pointe font-medium text-[1.1rem] text-brown_color hover:bg-brown_color hover:text-light_gray_color transition-all rounded-full py-1 px-4"
 					>
 						<Link href={item.link}>{item.title}</Link>
 					</div>
