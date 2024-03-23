@@ -5,7 +5,7 @@ import Link from "next/link";
 const MobileNavbar = () => {
 	return (
 		<div className="fixed z-20 flex justify-center items-center sm:hidden w-full p-2 bottom-0">
-			<nav className="w-full bg-light_gray_color rounded-full flex justify-around items-center px-2 pt-1">
+			<nav className="basic-shadow w-full bg-light_gray_color rounded-full flex justify-around items-center px-2 pt-1">
 				{navbarItems.map((item) => (
 					<div
 						key={item.id}
