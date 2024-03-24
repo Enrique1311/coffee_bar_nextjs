@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import AboutUsItem from "./AboutUsItem";
-import leaves_grain from "@/assets/leaves_grain.png";
+import leaves_grain from "@/assets/images/leaves_grain.png";
 
 const AboutUs = () => {
 	return (

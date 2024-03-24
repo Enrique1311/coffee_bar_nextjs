@@ -1,5 +1,5 @@
 import React from "react";
-import { navbarItems } from "@/data";
+import { navbarItems } from "@/assets/data";
 import Link from "next/link";
 
 const MobileNavbar = () => {

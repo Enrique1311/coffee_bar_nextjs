@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-// import leaves_grain from "../assets/leaves_grain.png";
 
 const Title = ({ title, subtitle, itemImage }) => {
 	return (

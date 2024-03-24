@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 * {
+	padding: 0;
+	margin: 0;
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 }
@@ -13,6 +15,14 @@
 
 .basic-shadow {
 	box-shadow: #3f3f3f5f 0px 5px 10px 2px;
+}
+
+.details-p {
+	@apply text-gray_color font-semibold text-base;
+}
+
+.our-menu-item {
+	@apply flex justify-center items-center gap-2 font-extrabold opacity-50 text-2xl text-brown_color sm:text-3xl;
 }
 
 @media screen and (min-width: 768px) {

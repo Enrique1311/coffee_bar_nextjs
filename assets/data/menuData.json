@@ -1,0 +1,297 @@
+{
+	"coffees": [
+		{
+			"id": 1,
+			"name": "Espresso",
+			"description": "Pure espresso coffee",
+			"price": 2.5
+		},
+		{
+			"id": 2,
+			"name": "Cafe Latte",
+			"description": "Hot, frothy milk and espresso",
+			"price": 3.0
+		},
+		{
+			"id": 3,
+			"name": "Cappuccino",
+			"description": "Espresso with steamed milk foam",
+			"price": 3.5
+		},
+		{
+			"id": 4,
+			"name": "Macchiato",
+			"description": "Espresso \"stained\" with a small amount of steamed milk",
+			"price": 3.0
+		},
+		{
+			"id": 5,
+			"name": "Americano",
+			"description": "Espresso with added hot water",
+			"price": 2.5
+		},
+		{
+			"id": 6,
+			"name": "Mocha",
+			"description": "Espresso with chocolate and steamed milk",
+			"price": 4.0
+		},
+		{
+			"id": 7,
+			"name": "Affogato",
+			"description": "Espresso poured over a scoop of vanilla ice cream",
+			"price": 4.5
+		},
+
+		{
+			"id": 8,
+			"name": "Flat White",
+			"description": "Espresso with velvety microfoam",
+			"price": 3.5
+		},
+		{
+			"id": 9,
+			"name": "Turkish Coffee",
+			"description": "Strong, finely ground coffee boiled with sugar",
+			"price": 4.0
+		}
+	],
+	"pastries": [
+		{
+			"id": 1,
+			"name": "Croissant",
+			"description": "Classic freshly baked croissant",
+			"price": 2.0
+		},
+		{
+			"id": 2,
+			"name": "Apple Pie",
+			"description": "Delicious homemade apple pie",
+			"price": 3.5
+		},
+		{
+			"id": 3,
+			"name": "Brownie",
+			"description": "Chocolate brownie with nuts",
+			"price": 2.5
+		},
+		{
+			"id": 4,
+			"name": "Blueberry Muffin",
+			"description": "Moist muffin filled with blueberries",
+			"price": 2.5
+		},
+		{
+			"id": 5,
+			"name": "Chocolate Chip Cookie",
+			"description": "Classic chocolate chip cookie",
+			"price": 1.5
+		},
+		{
+			"id": 6,
+			"name": "Cheesecake",
+			"description": "Creamy cheesecake with a graham cracker crust",
+			"price": 3.5
+		},
+		{
+			"id": 7,
+			"name": "Lemon Tart",
+			"description": "Tangy lemon tart with a buttery crust",
+			"price": 3.0
+		},
+		{
+			"id": 8,
+			"name": "Red Velvet Cake",
+			"description": "Decadent red velvet cake with cream cheese frosting",
+			"price": 4.5
+		},
+		{
+			"id": 9,
+			"name": "Almond Croissant",
+			"description": "Croissant filled with almond paste and topped with sliced almonds",
+			"price": 3.5
+		},
+		{
+			"id": 10,
+			"name": "Tropical Paradise Smoothie",
+			"description": "Exotic smoothie blend with tropical fruits",
+			"price": 5.0
+		},
+		{
+			"id": 11,
+			"name": "Chia Seed Smoothie",
+			"description": "Smoothie enriched with nutritious chia seeds",
+			"price": 4.0
+		}
+	],
+	"smoothies": [
+		{
+			"id": 1,
+			"name": "Strawberry Smoothie",
+			"description": "Refreshing strawberry smoothie",
+			"price": 4.0
+		},
+		{
+			"id": 2,
+			"name": "Mango Smoothie",
+			"description": "Creamy mango smoothie",
+			"price": 4.5
+		},
+		{
+			"id": 3,
+			"name": "Banana Smoothie",
+			"description": "Energizing banana smoothie",
+			"price": 4.0
+		},
+		{
+			"id": 4,
+			"name": "Pineapple Smoothie",
+			"description": "Tropical pineapple smoothie",
+			"price": 4.0
+		},
+		{
+			"id": 5,
+			"name": "Green Detox Smoothie",
+			"description": "Detoxifying smoothie with kale and spinach",
+			"price": 4.5
+		},
+		{
+			"id": 6,
+			"name": "Berry Blast Smoothie",
+			"description": "Smoothie packed with mixed berries",
+			"price": 4.5
+		},
+		{
+			"id": 7,
+			"name": "Avocado Smoothie",
+			"description": "Creamy avocado smoothie with a hint of sweetness",
+			"price": 5.0
+		}
+	],
+	"bakery": [
+		{
+			"id": 1,
+			"name": "Sliced Bread",
+			"description": "Fresh and soft sliced bread",
+			"price": 1.5
+		},
+		{
+			"id": 2,
+			"name": "Cinnamon Roll",
+			"description": "Fluffy cinnamon roll with icing",
+			"price": 2.0
+		},
+		{
+			"id": 3,
+			"name": "Baguette",
+			"description": "Crunchy freshly baked baguette",
+			"price": 2.5
+		},
+		{
+			"id": 4,
+			"name": "Sourdough Bread",
+			"description": "Artisanal sourdough bread with a crispy crust",
+			"price": 2.0
+		},
+		{
+			"id": 5,
+			"name": "Danish Pastry",
+			"description": "Flaky pastry filled with fruit or custard",
+			"price": 3.0
+		},
+		{
+			"id": 6,
+			"name": "Multigrain Bread",
+			"description": "Nutritious bread made with a variety of grains",
+			"price": 2.5
+		},
+		{
+			"id": 7,
+			"name": "Chocolate Croissant",
+			"description": "Buttery croissant filled with chocolate",
+			"price": 3.0
+		}
+	],
+	"sandwiches": [
+		{
+			"id": 1,
+			"name": "Turkey Club Sandwich",
+			"description": "A classic sandwich featuring roasted turkey, crispy bacon, lettuce, tomato, and mayonnaise, layered between slices of toasted bread.",
+			"price": 8.0
+		},
+		{
+			"id": 2,
+			"name": "BLT Sandwich",
+			"description": "A simple yet delicious sandwich made with crispy bacon, fresh lettuce, and ripe tomatoes, served on toasted bread with mayonnaise.",
+			"price": 7.5
+		},
+		{
+			"id": 3,
+			"name": "Grilled Chicken Panini",
+			"description": "A grilled sandwich filled with tender chicken breast, melted cheese, and savory toppings, pressed between slices of ciabatta bread.",
+			"price": 9.5
+		},
+		{
+			"id": 4,
+			"name": "Vegetarian Wrap",
+			"description": "A flavorful wrap filled with hummus, assorted vegetables, feta cheese, and mixed greens, wrapped in a spinach tortilla.",
+			"price": 6.5
+		},
+		{
+			"id": 5,
+			"name": "Tuna Salad Sandwich",
+			"description": "A satisfying sandwich made with tuna salad, crisp lettuce, and sliced tomatoes, served on whole wheat bread.",
+			"price": 7.0
+		},
+		{
+			"id": 6,
+			"name": "Ham and Cheese Croissant",
+			"description": "A buttery croissant filled with sliced ham and melted cheese, perfect for a quick and delicious breakfast or snack.",
+			"price": 5.5
+		}
+	],
+	"drinks": [
+		{
+			"id": 1,
+			"name": "Mineral Water",
+			"description": "Bottle of still mineral water",
+			"price": 1.0
+		},
+		{
+			"id": 2,
+			"name": "Orange Juice",
+			"description": "Freshly squeezed natural orange juice",
+			"price": 2.5
+		},
+		{
+			"id": 3,
+			"name": "Cola",
+			"description": "Can of chilled cola",
+			"price": 2.0
+		},
+		{
+			"id": 4,
+			"name": "Iced Tea",
+			"description": "Refreshing iced tea with lemon",
+			"price": 2.0
+		},
+		{
+			"id": 5,
+			"name": "Hot Chocolate",
+			"description": "Creamy hot chocolate topped with whipped cream",
+			"price": 3.5
+		},
+		{
+			"id": 6,
+			"name": "Lemonade",
+			"description": "Refreshing lemonade made with fresh lemons",
+			"price": 2.5
+		},
+		{
+			"id": 7,
+			"name": "Iced Coffee",
+			"description": "Chilled coffee served over ice",
+			"price": 3.0
+		}
+	]
+}

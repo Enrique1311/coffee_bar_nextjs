@@ -1,4 +1,4 @@
-import { dataSocialMedia } from "@/data";
+import { dataSocialMedia } from "@/assets/data";
 import Link from "next/link";
 import React from "react";
 

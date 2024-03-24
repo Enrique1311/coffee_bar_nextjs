@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { dataAboutUs } from "@/data";
+import { dataAboutUs } from "@/assets/data";
 import MainButton from "./MainButton";
 
 const AboutUsItem = () => {
@@ -16,9 +16,7 @@ const AboutUsItem = () => {
 						<h3 className="text-brown_color text-2xl font-semibold">
 							{item.title}
 						</h3>
-						<p className="text-gray_color font-semibold text-base">
-							{item.text}
-						</p>
+						<p className="details-p">{item.text}</p>
 						<MainButton>Know more</MainButton>
 					</div>
 					<Image

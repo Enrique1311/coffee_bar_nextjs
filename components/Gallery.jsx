@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import { dataGallery } from "@/data";
+import { dataGallery } from "@/assets/data";
 import Image from "next/image";
 import Title from "./Title";
-import heart from "@/assets/heart.png";
+import heart from "@/assets/images/heart.png";
 import {
 	IoIosArrowBack,
 	IoIosArrowForward,
@@ -34,7 +34,7 @@ const Gallery = () => {
 	return (
 		<section
 			id="gallery"
-			className="section_padding w-full my-5"
+			className="section_padding"
 		>
 			<Title
 				title="Gallery"

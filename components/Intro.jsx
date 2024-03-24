@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cup_of_coffee from "@/assets/cup_of_coffee.png";
+import cup_of_coffee from "@/assets/images/cup_of_coffee.png";
 import SocialMedia from "./SocialMedia";
 
 const Intro = () => {

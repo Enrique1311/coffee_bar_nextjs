@@ -1,12 +1,12 @@
-import { navbarItems } from "@/data";
+import { navbarItems } from "@/assets/data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import myLogo from "../assets/my_logo.png";
+import myLogo from "../assets/images/my_logo.png";
 
 const Navbar = () => {
 	return (
-		<nav className="basic-shadow fixed top-0 bg-light_gray_color flex justify-center items-center sm:justify-between w-full py-2 px-8">
+		<nav className="basic-shadow z-20 fixed top-0 bg-light_gray_color flex justify-center items-center sm:justify-between w-full py-2 px-8 rounded-b-3xl">
 			<Link href="./">
 				{" "}
 				<Image

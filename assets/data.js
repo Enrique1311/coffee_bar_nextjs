@@ -7,9 +7,9 @@ import {
 } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 
-import drinks from "@/assets/drinks.png";
-import sweet from "@/assets/sweet.png";
-import bread from "@/assets/bread.png";
+import drinks from "@/assets/images/drinks.png";
+import sweet from "@/assets/images/sweet.png";
+import bread from "@/assets/images/bread.png";
 
 import img1 from "@/assets/carrousel/img1.jpg";
 import img2 from "@/assets/carrousel/img2.jpg";
