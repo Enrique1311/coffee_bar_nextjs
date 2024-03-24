@@ -14,7 +14,7 @@ const Intro = () => {
 					<br /> at
 					<span className="text-orange_color"> The Coffee House</span>
 				</h1>
-				<h3 className="text-xl font-semibold">
+				<h3 className="text-xl font-semibold mb-4">
 					Immerse yourself in the aroma of freshly brewed coffee, crafted with
 					passion. Experience a blend of warmth, community, and exceptional
 					brews.
