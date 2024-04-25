@@ -10,11 +10,11 @@
 }
 
 .section_padding {
-	@apply pt-24 px-6 sm:pt-20 sm:px-12 lg:pt-16 lg:px-20;
+	@apply pt-20 px-6 sm:px-12 lg:px-20;
 }
 
 .basic-shadow {
-	box-shadow: #3f3f3f5f 0px 5px 10px 2px;
+	box-shadow: #bab8b8f0 0px 5px 10px 2px;
 }
 
 .details-p {

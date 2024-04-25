@@ -6,11 +6,14 @@ import my_logo from "@/assets/images/my_logo.png";
 
 const Footer = () => {
 	return (
-		<footer className="section_padding mt-12 pb-16 sm:pb-2 bg-light_gray_color">
+		<footer
+			className="section_padding mt-12 pb-16 sm:pb-2 bg-light_gray_color"
+			id="contact"
+		>
 			<div className="pb-16 flex flex-col justify-center items-center gap-8 md:flex-row lg:gap-20">
 				{" "}
 				<div className="text-brown_color">
-					<h2 className="text-xl font-extrabold text-orange_color">
+					<h2 className="text-2xl font-extrabold text-orange_color">
 						Contact Us
 					</h2>
 					<p className="font-semibold my-8">

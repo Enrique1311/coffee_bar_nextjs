@@ -1,11 +1,36 @@
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import React from "react";
 import cup_of_coffee from "@/assets/images/cup_of_coffee.png";
 import SocialMedia from "./SocialMedia";
+import TopButton from "./TopButton";
 
 const Intro = () => {
+	const [showButton, setShowButton] = useState(false);
+	const scrollRef = useRef();
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const headerDiv = scrollRef.current;
+			const { y } = headerDiv.getBoundingClientRect();
+			console.log(y);
+
+			y <= -20 ? setShowButton(true) : setShowButton(false);
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
+
 	return (
-		<section className="section_padding flex flex-col justify-center items-center gap-4 md:flex-row">
+		<section
+			id="home"
+			className="section_padding flex flex-col justify-center items-center gap-4 md:flex-row"
+			ref={scrollRef}
+		>
 			{" "}
 			<div className="flex flex-col justify-center gap-4 text-brown_color w-full md:w-1/2">
 				{" "}
@@ -28,6 +53,7 @@ const Intro = () => {
 					className="w-full"
 				/>
 			</div>
+			{showButton && <TopButton />}
 		</section>
 	);
 };

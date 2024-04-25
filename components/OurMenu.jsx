@@ -48,7 +48,7 @@ const OurMenu = () => {
 						<h4>Drinks</h4>
 					</div>
 				</div>
-				<div className="flex flex-col justify-around items-center md:flex-row gap-6">
+				<div className="flex flex-col justify-center items-center md:flex-row">
 					{" "}
 					<div className="w-full">
 						<p className="details-p mb-6">
