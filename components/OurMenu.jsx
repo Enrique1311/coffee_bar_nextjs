@@ -15,14 +15,14 @@ const OurMenu = () => {
 	return (
 		<section
 			id="menu"
-			className="section_padding"
+			className="section_padding bg-bg_color"
 		>
 			<Title
 				title="Our Menu"
 				subtitle="Know our delicious"
 				itemImage={menu_title}
 			/>
-			<div className="flex flex-col justify-center items-center w-full py-8 px-8 sm:px-12 md:px-16 border border-light_gray_color rounded-2xl gap-4">
+			<div className="flex flex-col justify-center items-center w-full py-8 gap-8">
 				<div className="w-full flex flex-wrap justify-center gap-2 items-center opacity-60">
 					<div className="our-menu-item">
 						<GiCoffeeCup />

@@ -10,7 +10,7 @@ const AboutUsItem = () => {
 			{dataAboutUs.map((item) => (
 				<div
 					key={item.id}
-					className="bg-light_gray_color_2 flex flex-col justify-center items-center gap-6 sm:gap-10 md:gap-12 rounded-2xl py-8 px-8 sm:px-10 md:px-14 md:flex-row"
+					className="bg-light_gray_color flex flex-col justify-center items-center gap-6 sm:gap-10 md:gap-12 rounded-2xl py-8 px-8 sm:px-10 md:px-14 md:flex-row"
 				>
 					<div className="flex flex-col justify-center items-start gap-3 md:w-3/5 lg:w-2/3">
 						<h3 className="text-brown_color text-2xl font-semibold">

@@ -7,7 +7,7 @@ import my_logo from "@/assets/images/my_logo.png";
 const Footer = () => {
 	return (
 		<footer
-			className="section_padding mt-12 pb-16 sm:pb-2 bg-light_gray_color"
+			className="section_padding mt-12 pb-16 sm:pb-2 bg-bg_color"
 			id="contact"
 		>
 			<div className="pb-16 flex flex-col justify-center items-center gap-8 md:flex-row lg:gap-20">
@@ -22,10 +22,7 @@ const Footer = () => {
 						expedita, explicabo ipsum quasi consequuntur similique enim ipsam
 						voluptatem eveniet.
 					</p>{" "}
-					<div className="w-fit m-auto border border-brown_color rounded-full md:mx-0">
-						{" "}
-						<SocialMedia />
-					</div>
+					<SocialMedia />
 				</div>{" "}
 				<div>
 					<Image

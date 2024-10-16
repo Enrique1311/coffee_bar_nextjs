@@ -6,7 +6,7 @@ import myLogo from "../assets/images/my_logo.png";
 
 const Navbar = () => {
 	return (
-		<nav className="basic-shadow z-20 fixed top-0 bg-light_gray_color flex justify-center items-center sm:justify-between w-full py-2 px-8 rounded-b-3xl">
+		<nav className="basic-shadow z-20 fixed top-0 bg-light_gray_color flex justify-center items-center sm:justify-between w-full py-2  rounded-b-3xl px-6 sm:px-12 lg:px-32">
 			<Link href="./">
 				{" "}
 				<Image

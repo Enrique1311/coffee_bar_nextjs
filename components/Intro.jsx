@@ -28,7 +28,7 @@ const Intro = () => {
 	return (
 		<section
 			id="home"
-			className="section_padding flex flex-col justify-center items-center gap-4 md:flex-row"
+			className="section_padding flex flex-col justify-center items-center gap-4 md:flex-row bg-bg_color"
 			ref={scrollRef}
 		>
 			{" "}
